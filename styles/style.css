@@ -103,14 +103,39 @@
   display: grid;
   place-items: center;
 }
-.party-section h1 {
-  
+.party-section .party-text {
+  position: relative;
+  left: 10px;
+  bottom: 530px;
+  text-align: left;
+}
+.party-text h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.party-text p {
+  width: 697px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
 }
 
 .location-section {
   margin-top: 120px;
   height: 482px;
-  background-image: linear-gradient(180deg,rgba(255, 0, 0, 0.1) 0%,rgba(255, 0, 0, 0) 100%);
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
 }
 .location-section .location h1 {
   color: #f00;
@@ -133,6 +158,9 @@
   text-transform: capitalize;
 }
 .location-section .location button {
+  position: relative;
+  top: 25px;
+  left: 870px;
   color: #fff;
   background-color: #f00;
   border-radius: 8px;
