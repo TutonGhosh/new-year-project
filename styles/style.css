@@ -127,8 +127,27 @@
   font-weight: 400;
   line-height: 30px; /* 166.667% */
 }
+.party-section button {
+  color: #fff;
+  background-color: red;
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 8px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  transition-duration: 0.5s;
+}
+button:hover {
+  background-color: black;
+}
 
 .location-section {
+  padding-top: 30px;
   margin-top: 120px;
   height: 482px;
   background-image: linear-gradient(
@@ -139,6 +158,7 @@
 }
 .location-section .location h1 {
   color: #f00;
+  top: 25px;
   text-align: center;
   font-family: Inter;
   font-size: 32px;
@@ -176,4 +196,45 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  transition-duration: 0.5s;
+}
+.location button:hover {
+  background-color: black;
+}
+
+.subs-section {
+  padding-top: 130px;
+  margin-top: 120px;
+  height: 482px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.subs-section .icon {
+  position: relative;
+  left: 885px;
+  width: 150px;
+  height: 150px;
+}
+.subs-text h1 {
+  position: relative;
+  left: 715px;
+  top: 10px;
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.subs-text p{
+  position: relative;
+  top: 10px;
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
 }
