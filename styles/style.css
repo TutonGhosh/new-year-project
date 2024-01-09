@@ -1,96 +1,151 @@
-/* First Part */
-.banner-pic{
-    width: 1320px;
-    height: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    border-radius: 16px;
-    background: rgba(0, 0, 0, 0.7);
-    background-size: cover;
-    background-blend-mode: darken;
-}
-#heading1{
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    top: 50px;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 62px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-#heading2{
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    top: 180px;
-    transform: translate(-50%, -50%);
-    color: #FFF;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 95px; 
-}
-#heading3{
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    top: 270px;
-    transform: translate(-50%, -50%);
-    color: #FFF;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 95px; 
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
 }
 
-/* Second Part */
-.second-part h1{
-    color: #F00;
-    text-align: center;
-    margin: 120px 0px;
-    font-family: Inter;
-    font-size: 88px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.banner-pic {
+  width: 1320px;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-radius: 16px;
+  background-size: cover;
 }
-#text1{
-    color: #F00;
-    text-align: center;
-    margin: 45px 0px;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+#heading1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: 50px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-#text2{
-    color: #070211;
-    text-align: center;
-    margin-top: 20px;
-    font-family: Inter;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+#heading2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: 180px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
 }
-.hny-pic{
-    width: 802.9px;
-    height: 500px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#heading3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: 280px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+}
 
+.second-part h1 {
+  color: #f00;
+  text-align: center;
+  margin: 120px 0px;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#text1 {
+  color: #f00;
+  text-align: center;
+  margin: 45px 0px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#text2 {
+  color: #070211;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hny-pic {
+  width: 802.9px;
+  height: 500px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.party-section {
+  padding-top: 120px;
+  display: grid;
+  place-items: center;
+}
+.party-section h1 {
+  
+}
+
+.location-section {
+  margin-top: 120px;
+  height: 482px;
+  background-image: linear-gradient(180deg,rgba(255, 0, 0, 0.1) 0%,rgba(255, 0, 0, 0) 100%);
+}
+.location-section .location h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.location-section .location p {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.location-section .location button {
+  color: #fff;
+  background-color: #f00;
+  border-radius: 8px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
