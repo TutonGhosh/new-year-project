@@ -277,12 +277,23 @@ button:hover {
   top: 80px;
   left: 70px;
 }
+.call-icon{
+  position: relative;
+  top: 108px;
+  left:1570px; 
+}
 .num{
   position: relative;
   top: 80px;
   left: 1600px;
 }
+.web-icon{
+  position: relative;
+  top: 128px;
+  left:1570px; 
+}
 .site{
+  display: flex;
   position: relative;
   top: 100px;
   left: 1600px;
@@ -296,7 +307,24 @@ button:hover {
   position: relative;
   top: 380px;
   left: 70px;
+  width: 210px;
+  height: 50px;
+  color: #fff;
+  background-color: red;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  transition-duration: 0.5s;
 }
+.unsubs:hover{
+  background-color: black;
+}
+
 .icons{
   position: relative;
   top: 180px;
